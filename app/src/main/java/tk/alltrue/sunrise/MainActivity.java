@@ -18,5 +18,13 @@ public class MainActivity extends AppCompatActivity {
         Animation sunRiseAnimation = AnimationUtils.loadAnimation(this, R.anim.sunrise);
 
         sunImageView.startAnimation(sunRiseAnimation);
+
+        ImageView clockImageView = (ImageView) findViewById(R.id.clock);
+        Animation clockTurnAnimation = AnimationUtils.loadAnimation(this, R.anim.clock_turn);
+        clockImageView.startAnimation(clockTurnAnimation);
+
+        ImageView hourImageView = (ImageView) findViewById(R.id.hour_arrow);
+        Animation hourTurnAnimation = AnimationUtils.loadAnimation(this, R.anim.hour_turn);
+        hourImageView.startAnimation(hourTurnAnimation);
     }
 }

@@ -31,4 +31,22 @@
         android:contentDescription="@string/grass"
         android:src="@drawable/grass" />
 
+    <ImageView
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/clock"
+        android:padding="10dp"
+        android:src="@drawable/clock" />
+    <ImageView
+        android:id="@+id/hour_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/clock"
+        android:padding="10dp"
+        android:src="@drawable/hour_arrow" />
 </RelativeLayout>
